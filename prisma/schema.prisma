@@ -21,7 +21,7 @@ model User {
   email          String
   hashedPassword String
   firstName      String
-  lastName       String
+  lastName       String?
 }
 
 model Bookmark {
