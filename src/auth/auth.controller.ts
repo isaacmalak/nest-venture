@@ -1,4 +1,5 @@
 import { Controller, Post } from '@nestjs/common';
+import { User, Bookmark } from 'generated/prisma/client';
 import { AuthService } from './auth.service';
 
 @Controller('auth')
